@@ -44,7 +44,7 @@ Get url from bc
 oc describe bc/flask-hello-world   (Webhook GitHub:)
 ```
 
-Substitute secret in url and create webhook in github repository
+Substitute secret in url and create webhook in github repository. Form submit must be application/json!
 
 
 **Known bugs**
