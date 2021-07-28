@@ -39,7 +39,7 @@ Get secret from
 oc get bc/flask-hello-world -o json | jq '.spec.triggers[0].github.secret'
 ```
 
-Get url from
+Get url from bc
 ```
 oc describe bc/flask-hello-world   (Webhook GitHub:)
 ```
